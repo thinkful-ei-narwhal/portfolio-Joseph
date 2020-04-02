@@ -72,8 +72,10 @@ hr {
 }
 
 .headshot {
-  width: 40%;
+  width: 170px;
+  border: 5px solid lightgray;
   border-radius: 50%;
+  margin: 20px 0 20px;
 }
 
 /* Projects Page styles */
@@ -97,8 +99,9 @@ hr {
   border-radius: 3px;
 }
 
-.project-item img {
+.app-preview {
   width: 100%;
+  border-radius: 3px;
 }
 
 .technologies {
@@ -106,13 +109,33 @@ hr {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.technologies i {
+  font-size: 40px;
+}
+
+.technologies .fa-html5 {
+  color: #E44E2A;
+}
+
+.technologies .fa-css3-alt {
+  color: #0070B7;
+}
+
+.technologies .fa-js-square {
+  color: #F0DB4F;
+}
+
+.technologies .fa-git-alt {
+  color: #EB5032;
 }
 
 .github-links {
   display: flex;
   flex-direction: row-reverse;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .github-links a {

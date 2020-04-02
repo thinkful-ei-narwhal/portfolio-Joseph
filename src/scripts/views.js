@@ -21,17 +21,17 @@ const generateMobileAboutPage = () => {
         fulfill something missing in their lives, whether through an app, conversation, or both!
       </h2>
     </header>
-    <img src="./img/profile-pic.png" alt="Headshot of Joseph" class="headshot">
+    <img src="./src/img/profile-pic.png" alt="Headshot of Joseph" class="headshot">
     <p class="biography">
       I’m a son of immigrants that came to this country at very young ages. Living in a busy
       city like Miami, FL and being the first person in my family to be born and raised here has
-      given me a sense of gratitude and drive to push forward in anything I do in life. Before learning
+      given me a sense of gratitude and drive to push forward in anything I do in life.<br><br>Before learning
       about the extent to which software development can apply, I worked in the fine dining
       industry. I greatly enjoyed seeing how happy guests would be when they tried their meal for the
       first time! Dealing with people worth thousands of dollars, and sometimes, millions of dollars,
       always had me on my A-game. Making everyone that visited feel welcome and pampered was important to me
       and I would make sure to reflect that when tending to and talking to every guest.
-      I am a web developer and recent graduate of the Engineering Immersion bootcamp at Thinkful because
+      <br><br>I am a web developer and recent graduate of the Engineering Immersion bootcamp at Thinkful because
       I find it most satisfying to be able to think up and implement an idea from nothing. Using code to
       make something that can have an impact on even one person’s life brings me excitement. I geek out on
       making back ends work and learning new tools and techniques. When I'm not coding, I enjoy spending
@@ -42,9 +42,9 @@ const generateMobileAboutPage = () => {
     </p>
   </section>
   <footer role="contentinfo">
-    <a href=""><i class="fa fa-github"></i></a>
-    <a href=""><i class="fa fa-linkedin"></i></a>
-    <a href=""><i class="fa fa-envelope-open"></i></a>
+    <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i></a>
+    <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
   </footer>`
 };
 
@@ -56,7 +56,7 @@ const generateMobileProjectsPage = () => {
     </header>
     <ul class="projects-list">
       <li class="project-item">
-        <img src="./img/quiz-app.png" alt="World Quiz App Preview">
+        <img src="./src/img/quiz-app.png" alt="World Quiz App Preview" class="app-preview">
         <h2>${project.title}</h2>
         <p>${project.description}</p>
         <ul class="technologies">
@@ -70,10 +70,10 @@ const generateMobileProjectsPage = () => {
     </ul>
   </section>
   <footer role="contentinfo">
-    <a href=""><i class="fa fa-github"></i></a>
-    <a href=""><i class="fa fa-linkedin"></i></a>
-    <a href=""><i class="fa fa-envelope-open"></i></a>
-  </footer> `
+    <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i></a>
+    <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
+  </footer>`
 };
 
 const generateMobileContactPage = () => {
@@ -96,9 +96,9 @@ const generateMobileContactPage = () => {
     </form>
   </section>
   <footer role="contentinfo">
-    <a href=""><i class="fa fa-github"></i></a>
-    <a href=""><i class="fa fa-linkedin"></i></a>
-    <a href=""><i class="fa fa-envelope-open"></i></a>
+    <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i></a>
+    <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
   </footer>`
 };
 
