@@ -4,7 +4,7 @@ let projects = [
   {
     id: cuid(),
     image: {
-      imgSrc: '8c92a8176a328b02ccbdc284cf81dfd3.png',
+      imgSrc: 'https://ibb.co/WsZYfVL',
       imgAlt: 'World Quiz App Preview'
     },
     title: 'World Quiz App',
