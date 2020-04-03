@@ -25,7 +25,9 @@
           fulfill something missing in their lives, whether through an app, conversation, or both!
         </h2>
       </header>
-      <img src="./src/img/profile-pic.png" alt="Headshot of Joseph" class="headshot">
+      <div class="headshot" style="display: flex; justify-content: center; align-items: center;">
+        <span>Headshot Img</span>
+      </div>
       <p class="biography">
         I’m a son of immigrants that came to this country at very young ages. Living in a busy
         city like Miami, FL and being the first person in my family to be born and raised here has
@@ -48,6 +50,48 @@
         things I learned over the years are playing the guitar and ukulele, different ways of life across the globe,
         and how to speak Italian! 
       </p>
+    </section>
+    <hr>
+    <section role="region" class="content-section">
+      <header>
+        <h1 class="projects-header">Projects</h1>
+      </header>
+      <ul class="projects-list">
+        <li class="project-item">
+          <div class="app-preview" style="display: flex; justify-content: center; align-items: center;">
+            <span>Project Img</span>
+          </div>
+          <h2>Project Title</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <ul class="technologies">
+            <li><strong>Tech Tool 1</strong></li>
+            <li><strong>Tech Tool 2</strong></li>
+            <li><strong>Tech Tool 3</strong></li>
+          </ul>
+          <div class="github-links">
+            <a href="#"><i class="fa fa-window-maximize"></i></a>
+            <a href="#"><i class="fa fa-github-square"></i></a>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <hr>
+    <section role="region" class="content-section">
+      <header>
+        <h1 class="contact-header">Let's get in touch!</h1>
+      </header>
+      <form action="#" class="contact-form">
+        <legend>Contact Me</legend>
+        <label for="full-name">Full Name</label>
+        <input type="text" id="full-name" name="contact" placeholder="Type here..." required>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="contact" placeholder="Enter email address..." required>
+        <label for="message">Type a message</label>
+        <textarea id="message" name="contact" cols="30" rows="10" style="resize: none;" placeholder="Enter a brief message..." required></textarea>
+        <button>
+          <span>Send Message</span>
+        </button>
+      </form>
     </section>
     <footer role="contentinfo">
       <a href=""><i class="fa fa-github"></i></a>
