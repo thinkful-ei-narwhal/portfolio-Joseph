@@ -19,6 +19,10 @@ const handleContactButtonClick = () => {
   });
 };
 
+const render = () => {
+  $('main').html(views.generateAboutPage);
+};
+
 const handleEventListeners = () => {
   handleAboutButtonClick(),
   handleProjectsButtonClick(),
@@ -26,5 +30,6 @@ const handleEventListeners = () => {
 };
 
 export default {
-  handleEventListeners
+  handleEventListeners,
+  render
 }
