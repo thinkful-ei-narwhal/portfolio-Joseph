@@ -58,8 +58,8 @@ const generateProjectItem = (item) => {
       ${generateListItemsString(item.technologies)}
     </ul>
     <div class="github-links">
-      <a href="${item.liveLink}"><i class="fa fa-window-maximize"></i></a>
-      <a href="${item.repoLink}"><i class="fa fa-github-square"></i></a>
+      <a href="${item.liveLink}" target="_blank"><i class="fa fa-window-maximize"></i></a>
+      <a href="${item.repoLink}" target="_blank"><i class="fa fa-github-square"></i></a>
     </div>
   </li>`
 };
