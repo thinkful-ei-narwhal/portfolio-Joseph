@@ -6,19 +6,26 @@
   <title>Joseph Rivera | Full Stack Developer</title>
   <!-- Fontawesome cdn -->
   <script src="https://kit.fontawesome.com/f0190a24dd.js" crossorigin="anonymous"></script>
+  <!-- Ovo & Muli fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Muli&family=Ovo&display=swap" rel="stylesheet">
 </head>
 <body>
   <nav role="navigation" class="navbar">
-    <div class="desktop-site-title">
+    <header class="desktop-site-title">
       <h2>Joseph Rivera</h2>
-      <h3>Full Stack Developer</h3>
-    </div>
+      <h3>Full-Stack Developer</h3>
+    </header>
     <a href="#" class="about-btn">About</a>
     <a href="#" class="projects-btn">Projects</a>
     <a href="#" class="contact-btn">Contact</a>
+    <div class="desktop-site-socials">
+      <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i></a>
+      <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
+    </div>
   </nav>
   <hr class="nav-hr">
-  
+
   <main role="main">
     
     <section role="region" class="content-section">
@@ -29,9 +36,7 @@
           fulfill something missing in their lives, whether through an app, conversation, or both!
         </h2>
       </header>
-      <div class="headshot" style="display: flex; justify-content: center; align-items: center;">
-        <span>Headshot Img</span>
-      </div>
+      <img src="./src/img/profile-pic.png" alt="Headshot of Joseph" class="headshot">
       <p class="biography">
         I’m a son of immigrants that came to this country at very young ages. Living in a busy
         city like Miami, FL and being the first person in my family to be born and raised here has
@@ -55,49 +60,7 @@
         and how to speak Italian! 
       </p>
     </section>
-    <hr>
-    <section role="region" class="content-section">
-      <header>
-        <h1 class="projects-header">Projects</h1>
-      </header>
-      <ul class="projects-list">
-        <li class="project-item">
-          <div class="app-preview" style="display: flex; justify-content: center; align-items: center;">
-            <span>Project Img</span>
-          </div>
-          <h2>Project Title</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          <ul class="technologies">
-            <li><strong>Tech Tool 1</strong></li>
-            <li><strong>Tech Tool 2</strong></li>
-            <li><strong>Tech Tool 3</strong></li>
-          </ul>
-          <div class="github-links">
-            <a href="#"><i class="fa fa-window-maximize"></i></a>
-            <a href="#"><i class="fa fa-github-square"></i></a>
-          </div>
-        </li>
-      </ul>
-    </section>
-    <hr>
-    <section role="region" class="content-section">
-      <header>
-        <h1 class="contact-header">Let's get in touch!</h1>
-      </header>
-      <form action="#" class="contact-form">
-        <legend>Contact Me</legend>
-        <label for="full-name">Full Name</label>
-        <input type="text" id="full-name" name="contact" placeholder="Type here..." required>
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="contact" placeholder="Enter email address..." required>
-        <label for="message">Type a message</label>
-        <textarea id="message" name="contact" cols="30" rows="10" style="resize: none;" placeholder="Enter a brief message..." required></textarea>
-        <button>
-          <span>Send Message</span>
-        </button>
-      </form>
-    </section>
-    <footer role="contentinfo">
+    <footer role="contentinfo" class="mobile-footer">
       <a href=""><i class="fa fa-github"></i></a>
       <a href=""><i class="fa fa-linkedin"></i></a>
       <a href=""><i class="fa fa-envelope-open"></i></a>

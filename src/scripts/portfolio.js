@@ -3,19 +3,19 @@ import views from './views';
 
 const handleAboutButtonClick = () => {
   $('nav').on('click', '.about-btn', (event) => {
-    $('main').html(views.generateMobileAboutPage);
+    $('main').html(views.generateAboutPage);
   });
 };
 
 const handleProjectsButtonClick = () => {
   $('nav').on('click', '.projects-btn', (event) => {
-    $('main').html(views.generateMobileProjectsPage);
+    $('main').html(views.generateProjectsPage);
   });
 };
 
 const handleContactButtonClick = () => {
   $('nav').on('click', '.contact-btn', (event) => {
-    $('main').html(views.generateMobileContactPage);
+    $('main').html(views.generateContactPage);
   });
 };
 

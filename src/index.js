@@ -3,7 +3,7 @@ import './styles/index.css';
 import portfolio from './scripts/portfolio';
 
 function main() {
-  // portfolio.handleEventListeners()
+  portfolio.handleEventListeners()
 };
 
 $(main);

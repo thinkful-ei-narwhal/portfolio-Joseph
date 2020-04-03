@@ -3,8 +3,12 @@ import cuid from 'cuid';
 let projects = [
   {
     id: cuid(),
+    image: {
+      imgSrc: './src/img/quiz-app-demo.gif',
+      imgAlt: 'World Quiz App Preview'
+    },
     title: 'World Quiz App',
-    description: 'This is a simple quiz game where you try to guess the capital of each of the countries listed. This demonstrates taking inputs from the user and being able to tell if the answer given is right or wrong, with the appropriate prompt given to the user in response.',
+    description: 'This is a simple quiz game where you try to guess the capital of each of the countries listed! This app was made to demonstrate building an interactive app that takes inputs from the user and validates those inputs, while keeping track of the user\'s score and a rating them based on their score at the end. Click the window button to give it a go!',
     technologies: [
       '<i class="fab fa-html5"></i>',
       '<i class="fab fa-css3-alt"></i>',

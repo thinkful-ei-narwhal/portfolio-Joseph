@@ -11,7 +11,7 @@ const generateListItem = (item) => {
   return `<li>${item}</li>`;
 };
 
-const generateMobileAboutPage = () => {
+const generateAboutPage = () => {
   return `
   <section role="region" class="content-section">
     <header>
@@ -41,46 +41,54 @@ const generateMobileAboutPage = () => {
       and how to speak Italian! 
     </p>
   </section>
-  <footer role="contentinfo">
+  <footer role="contentinfo" class="mobile-footer">
     <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i></a>
     <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i></a>
     <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
   </footer>`
 };
 
-const generateMobileProjectsPage = () => {
+const generateProjectItem = (item) => {
+  return `
+  <li class="project-item">
+    <img src="${item.image.imgSrc}" alt="${item.image.imgAlt}" class="app-preview">
+    <h2>${item.title}</h2>
+    <p>${item.description}</p>
+    <ul class="technologies">
+      ${generateListItemsString(item.technologies)}
+    </ul>
+    <div class="github-links">
+      <a href="${item.liveLink}"><i class="fa fa-window-maximize"></i></a>
+      <a href="${item.repoLink}"><i class="fa fa-github-square"></i></a>
+    </div>
+  </li>`
+};
+
+const generateProjectsPage = () => {
   return `
   <section role="region" class="content-section">
     <header>
       <h1 class="projects-header">Projects</h1>
+      <p class="projects-subtitle">Here a list of the projects I'm most proud of! Feel free to visit the GitHub Repo and the Live Site with the links in the bottom right corner.</p>
     </header>
     <ul class="projects-list">
-      <li class="project-item">
-        <img src="./src/img/quiz-app.png" alt="World Quiz App Preview" class="app-preview">
-        <h2>${project.title}</h2>
-        <p>${project.description}</p>
-        <ul class="technologies">
-          ${generateListItemsString(project.technologies)}
-        </ul>
-        <div class="github-links">
-          <a href="${project.liveLink}"><i class="fa fa-window-maximize"></i></a>
-          <a href="${project.repoLink}"><i class="fa fa-github-square"></i></a>
-        </div>
-      </li>
+      ${generateProjectItem(project)}
     </ul>
+    <p class="coming-soon">More projects on the way!</p>
   </section>
-  <footer role="contentinfo">
+  <footer role="contentinfo" class="mobile-footer">
     <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i></a>
     <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i></a>
     <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
   </footer>`
 };
 
-const generateMobileContactPage = () => {
+const generateContactPage = () => {
   return `
   <section role="region" class="content-section">
-    <header>
-      <h1 class="contact-header">Let's get in touch!</h1>
+    <header class="contact-header">
+      <h1 class="contact-title">Let's get in touch!</h1>
+      <p class="contact-subtitle">Email me directly at <a href="mailto:antonibrivera@gmail.com" target="_blank">antonibrivera@gmail.com</a> or send me a message below!</p>
     </header>
     <form action="#" class="contact-form">
       <legend>Contact Me</legend>
@@ -90,12 +98,10 @@ const generateMobileContactPage = () => {
       <input type="email" id="email" name="contact" placeholder="Enter email address..." required>
       <label for="message">Type a message</label>
       <textarea id="message" name="contact" cols="30" rows="10" style="resize: none;" placeholder="Enter a brief message..." required></textarea>
-      <button>
-        <span>Send Message</span>
-      </button>
+      <button>Send Message</button>
     </form>
   </section>
-  <footer role="contentinfo">
+  <footer role="contentinfo" class="mobile-footer">
     <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i></a>
     <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i></a>
     <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
@@ -103,7 +109,7 @@ const generateMobileContactPage = () => {
 };
 
 export default {
-  generateMobileAboutPage,
-  generateMobileProjectsPage,
-  generateMobileContactPage
+  generateAboutPage,
+  generateProjectsPage,
+  generateContactPage
 };
