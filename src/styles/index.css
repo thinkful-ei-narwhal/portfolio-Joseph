@@ -43,6 +43,11 @@ section {
   align-items: center;
 }
 
+.navbar > a:hover,
+.contact-form > button:hover {
+  background-color: #8EC9D2;
+}
+
 /* ----- Navigation styles ----- */
 
 .navbar {
@@ -225,6 +230,7 @@ section {
   font-family: 'Muli';
   font-size: 18px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 /* ----- Tablet Compatibility ----- */
