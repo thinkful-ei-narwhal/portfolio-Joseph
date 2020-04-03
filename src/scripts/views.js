@@ -1,4 +1,5 @@
 import store from './store';
+import headshot from './img/profile-pic.png';
 
 let project = store.projects[0];
 
@@ -21,7 +22,7 @@ const generateAboutPage = () => {
         fulfill something missing in their lives, whether through an app, conversation, or both!
       </h2>
     </header>
-    <img src="./src/img/profile-pic.png" alt="Headshot of Joseph" class="headshot">
+    <img src="${headshot}" alt="Headshot of Joseph" class="headshot">
     <p class="biography">
       I’m a son of immigrants that came to this country at very young ages. Living in a busy
       city like Miami, FL and being the first person in my family to be born and raised here has

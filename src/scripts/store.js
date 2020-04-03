@@ -1,10 +1,11 @@
 import cuid from 'cuid';
+import quizPreview from './img/quiz-app-demo.gif';
 
 let projects = [
   {
     id: cuid(),
     image: {
-      imgSrc: './src/img/quiz-app-demo.gif',
+      imgSrc: quizPreview,
       imgAlt: 'World Quiz App Preview'
     },
     title: 'World Quiz App',
