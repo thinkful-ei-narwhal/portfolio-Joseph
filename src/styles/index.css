@@ -273,3 +273,25 @@ hr {
     display: none;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: 1.3rem;
+  }
+
+  /* About Page styles */
+
+  .about-subtitle {
+    max-width: 650px;
+  }
+  
+  .biography {
+    max-width: 780px;
+  }
+
+  /* Contact form Styles */
+
+  .contact-form {
+    width: 700px;
+  }
+}
