@@ -43,6 +43,10 @@ footer {
   margin-top: 15px;
 }
 
+.desktop-site-title {
+  display: none;
+}
+
 .about-btn,
 .projects-btn,
 .contact-btn {
@@ -192,6 +196,8 @@ hr {
 /* Tablet Compatibility */
 
 @media screen and (min-width:600px) {
+  /* About Page styles */
+
   .about-subtitle {
     max-width: 470px;
   }
@@ -200,11 +206,70 @@ hr {
     max-width: 540px;
   }
 
+  /* Projects Page styles */
+
   .projects-list {
     max-width: 500px;
   }
 
+  /* Contact form Styles */
+
   .contact-form {
     width: 500px;
+  }
+}
+
+/* Laptop Compatibility */
+
+@media screen and (min-width: 1024px) {
+  /* General styles */
+
+  main {
+    height: 100vh;
+  }
+
+  .content-section {
+    margin-top: 40px;
+  }
+
+  body {
+    font-size: 1.1rem;
+  }
+
+  /* Navbar styles */
+
+  nav.navbar {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    width: 30%;
+    border-right: 1px solid #000000;
+  }
+
+  .nav-hr {
+    display: none;
+  }
+
+  .navbar a {
+    font-size: 28px;
+  }
+
+  .desktop-site-title {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desktop-site-title h2 {
+    margin-bottom: 0;
+  }
+  
+  footer {
+    display: none;
   }
 }
