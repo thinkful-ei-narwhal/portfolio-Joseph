@@ -8,7 +8,7 @@ let projects = [
       imgAlt: 'World Quiz App Preview'
     },
     title: 'World Quiz App',
-    description: 'This is a simple quiz game where you try to guess the capital of each of the countries listed! This app was made to demonstrate building an interactive app that takes inputs from the user and validates those inputs, while keeping track of the user\'s score and a rating them based on their score at the end. Click the window button to give it a go!',
+    description: 'This project was made for anyone, from kids to adults, that loves quiz games and who are looking to test their knowledge on world capitals! The app guides you through a series of questions and gives you multiple choices to pick from. If you get an answer wrong or right, you\'ll be given the appropriate response and your score will be kept to let you know how well you\'re doing. I built this app to test my knowledge on how to make a modular, interactive web app using JavaScript and jQuery. Click the window button to give it a go!',
     technologies: [
       '<i class="fab fa-html5"></i>',
       '<i class="fab fa-css3-alt"></i>',
