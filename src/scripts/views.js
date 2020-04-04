@@ -42,9 +42,9 @@ const generateAboutPage = () => {
     </p>
   </section>
   <footer role="contentinfo" class="mobile-footer">
-    <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i></a>
-    <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
+    <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i><span class="hide-text">GitHub</span></a>
+    <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i><span class="hide-text">LinkedIn</span></a>
+    <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i><span class="hide-text">Email</span></a>
   </footer>`
 };
 
@@ -77,9 +77,9 @@ const generateProjectsPage = () => {
     <p class="coming-soon">More projects on the way!</p>
   </section>
   <footer role="contentinfo" class="mobile-footer">
-    <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i></a>
-    <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
+    <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i><span class="hide-text">GitHub</span></a>
+    <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i><span class="hide-text">LinkedIn</span></a>
+    <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i><span class="hide-text">Email</span></a>
   </footer>`
 };
 
@@ -102,9 +102,9 @@ const generateContactPage = () => {
     </form>
   </section>
   <footer role="contentinfo" class="mobile-footer">
-    <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i></a>
-    <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i></a>
-    <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i></a>
+    <a href="https://github.com/antonibrivera" target="_blank"><i class="fa fa-github"></i><span class="hide-text">GitHub</span></a>
+    <a href="https://www.linkedin.com/in/antonibrivera/" target="_blank"><i class="fa fa-linkedin"></i><span class="hide-text">LinkedIn</span></a>
+    <a href="mailto:antonibrivera@gmail.com" target="_blank"><i class="fa fa-envelope-open"></i><span class="hide-text">Email</span></a>
   </footer>`
 };
 
